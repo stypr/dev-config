@@ -1,0 +1,69 @@
+# /etc/nanorc
+
+# set casesensitive
+# set autoindent
+# set softwrap
+# set tabstospaces
+# set mouse
+
+## Set the line length for wrapping text and justifying paragraphs.
+set fill -4
+
+## Remember the used search/replace strings for the next session.
+set historylog
+
+## Display line numbers to the left of the text.
+set linenumbers
+
+## Enable vim-style lock-files.
+set locking
+
+## Use the blank line below the title bar as extra editing space.
+set morespace
+
+## Switch on multiple file buffers (inserting a file will put it into
+set multibuffer
+
+## Don't convert files from DOS/Mac format.
+set noconvert
+
+## Don't display the helpful shortcut lists at the bottom of the screen.
+set nohelp
+
+## Don't add newlines to the ends of files.
+set nonewlines
+
+## Don't wrap text at all.
+set nowrap
+
+## Position Log
+set positionlog
+
+## Do extended regular expression searches by default.
+set regexp
+
+## Use smooth scrolling as the default.
+set smooth
+
+## Allow nano to be suspended.
+set suspend
+
+## Tabsize
+set tabsize 4 
+
+## The two single-column characters used to display the first characters
+set whitespace "»·"
+
+## Status Info
+set titlecolor brightwhite,cyan
+set statuscolor brightwhite,cyan
+set selectedcolor brightwhite,magenta
+set numbercolor brightwhite,cyan
+set keycolor cyan
+set functioncolor green
+
+## Add Syntax highlights
+include "/usr/share/nano/*.nanorc"
+
+## Set this if your Backspace key sends Del most of the time.
+bind Del backspace all
